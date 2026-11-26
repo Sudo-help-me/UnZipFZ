@@ -1,0 +1,9 @@
+App(
+    appid="zip_unzipper",
+    name="Zip Unzipper",
+    apptype=FlipperAppType.MENUEXTERNAL,
+    targets=["f7"],
+    entry_point="zip_unzipper_app",
+    stack_size=8 * 1024,
+    fap_category="Tools",
+)
